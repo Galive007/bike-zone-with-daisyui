@@ -16,6 +16,7 @@
         theme: {
           extend: {
             colors: {
+              clifford: '#da373d',
               'slide-bg': 'rgba(231, 111, 81, 0.10)',
               'primary-btn': '#E76F51',
             }
@@ -138,19 +139,60 @@
     </header>
     <main class="md:container md:mx-auto md:px-0  px-6">
       <!-- fetured section-->
-      <section>
+      <section class="my-24">
         <h1 class="text-center text-2xl md:text-5xl  text-black font-bold lg:mt-32 md:mt-24 mt-20">Fetured Bikes In This Year</h1>
         <p class="text-primary-btn font-semibold text-center">Best bike collection</p>
         <hr class="pb-10 w-[58px] mx-auto stroke-2 stroke-[#E76F51]">
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-5 justify-center">
           <div>
-            <img class="mix-blend-luminosity" src="images/others/feature-bike.png" alt="">
+            <img class="mix-blend-luminosity w-96" src="images/others/feature-bike.png" alt="">
           </div>
           <div>
-            <img src="images/others/feature-bike.png" alt="">
+            <img class="w-96"src="images/others/feature-bike.png" alt="">
           </div>
           <div>
-            <img class="mix-blend-luminosity" src="images/others/feature-bike.png" alt="">
+            <img class="mix-blend-luminosity w-96" src="images/others/feature-bike.png" alt="">
+          </div>
+        </div>
+      </section>
+
+
+      <!-- latest -->
+      <section class="my-24">
+        <h1 class="text-center text-2xl md:text-5xl  text-black font-bold lg:mt-32 md:mt-24 my-10">Latest News</h1>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+          <!-- card 1 -->
+          <div class="card bg-base-100 border-2 p-5  space-y-5">
+            <figure><img class="w-full" src="images/others/latest1.png" alt="Shoes" /></figure>
+            <div class="card-body p-0">
+              <h2 class="card-title space-y-5">Shoes!</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn border-1 text-[#E76F51] border-[#E76F51] bg-white hover:bg-[#E76F51] hover:text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-base-100 border-2 p-5  space-y-5">
+            <figure><img class="w-full" src="images/others/latest2.png" alt="Shoes" /></figure>
+            <div class="card-body p-0">
+              <h2 class="card-title space-y-5">Shoes!</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn border-1 text-[#E76F51] border-[#E76F51] bg-white hover:bg-[#E76F51] hover:text-white">Read More</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-base-100 border-2 p-5  space-y-5">
+            <figure><img class="w-full" src="images/others/latest3.png" alt="Shoes" /></figure>
+            <div class="card-body p-0">
+              <h2 class="card-title space-y-5">Shoes!</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn border-1 text-[#E76F51] border-[#E76F51] bg-white hover:bg-[#E76F51] hover:text-white">Read More</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
